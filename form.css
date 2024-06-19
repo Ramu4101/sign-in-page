@@ -1,0 +1,47 @@
+form{
+    width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    border: 4px solid red;
+    padding: 15px;
+    background-color: #93c492;
+}
+input[type="text"],
+input[type='password'],
+input[type='number'],
+input[type='email'],
+input[type='date'],
+input[type='file'],
+select,
+textarea
+{
+    width: 100%;
+    font-size: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: none;
+}
+button{
+    background-color: red;
+    background-size: 30px;
+    font-size: 25px;
+    display: block;
+    margin: auto;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+input[type="checkbox"],
+input[typr="radio"]{
+    width:20px;
+    height:20px;
+}
+body{
+    background-color: pink;
+}
+legend{
+    font-size: 30px;
+    text-align: center;
+}
